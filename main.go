@@ -15,7 +15,7 @@ func main() {
 
 func handler2(w http.ResponseWriter, r *http.Request) {
 
-	fmt.Fprintf(w, "<p>Go is fast %s ....%s simple</p>", "can", "<strong>variables</strong>")
+	fmt.Fprintf(w, "<p>Go is fast ....  %s simple</p>",  "<strong>And</strong>")
 
 }
 
